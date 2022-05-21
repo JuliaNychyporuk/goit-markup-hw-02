@@ -40,7 +40,7 @@ list-style: none;
     color: var(--accent);
 }
 
-.site-nav :link, :visited{ 
+.site-nav :link,:visited{ 
     font-weight: 500; 
     font-size: 14px; 
     line-height: 1,14;
@@ -48,7 +48,7 @@ list-style: none;
     color: rgba(33, 33, 33, 1)
 }
 
-.site-nav :hover, :focus{
+.site-nav :hover,:focus{
  color: var(--accent);
 }
 
@@ -59,7 +59,7 @@ list-style: none;
     color: rgba(117, 117, 117, 1);
     text-decoration: none;
 }
-.links :hover, :focus {
+.links :hover,:focus {
     color: var(--accent);
 }
 
@@ -118,6 +118,15 @@ color: var(--text-color)
 /*-------- Section-3------- */
 .section-3 {
     background-color: var(--third-background-color);
+}
+
+.section-3-main-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1,
+16;
+letter-spacing: 0.03em;
+color: var(--primery-text-color)
 }
 
 .section-3-title {
