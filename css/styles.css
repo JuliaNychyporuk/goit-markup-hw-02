@@ -40,7 +40,7 @@ list-style: none;
     color: var(--accent);
 }
 
-.site-nav :link,:visited{ 
+.site-nav:link,:visited{ 
     font-weight: 500; 
     font-size: 14px; 
     line-height: 1,14;
@@ -48,18 +48,18 @@ list-style: none;
     color: rgba(33, 33, 33, 1)
 }
 
-.site-nav :hover,:focus{
+.site-nav:hover,:focus{
  color: var(--accent);
 }
 
-.links :link {
+.links:link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
     color: rgba(117, 117, 117, 1);
     text-decoration: none;
 }
-.links :hover,:focus {
+.links:hover,:focus {
     color: var(--accent);
 }
 
